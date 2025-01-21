@@ -1,0 +1,153 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img.escudo {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0a9396;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #94d2bd;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section img.pagInicial {
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    display: block; /* Permite centrar el elemento */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente **/
+}
+section img.pagInicialSeparacion {
+    height: 450px;
+    margin-bottom: 10px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    display: block; /* Permite centrar el elemento */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
+}
+
+section h2 {
+    color: #005f73;
+    border-bottom: 2px solid #94d2bd;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #005f73;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para secciones específicas */
+#noticias article {
+    margin-bottom: 20px;
+}
+
+#noticias h3 {
+    color: #0a9396;
+}
+
+#educacion article {
+    margin-bottom: 20px;
+}
+
+#contacto textarea, #contacto input {
+    width: 99%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#galeria .galeria {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galeria aside {
+    width: 30%;
+    text-align: center;
+    margin: 0;
+}
+
+#galeria img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#medidas ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#medidas ul li {
+    margin-bottom: 10px;
+}
+
+#consejos h3 {
+    margin-top: 20px;
+    color: #0a9396;
+}
+
+#ue_agenda p {
+    line-height: 1.6;
+}
