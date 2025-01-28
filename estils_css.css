@@ -1,4 +1,7 @@
-/* Estilos generales */
+/* Estilos generales (class)*/
+/******************************************/
+
+/*Estilo general del cuerpo del texto*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,6 +10,7 @@ body {
     color: #333;
 }
 
+/*Estilo de la cabecera*/
 header {
     background-color: #005f73;
     color: white;
@@ -14,15 +18,13 @@ header {
     text-align: center;
 }
 
-header img.escudo {
+/*Alineacion de la imagen de la cabecera*/
+.escudo {
     height: 80px;
     margin-bottom: 10px;
 }
 
-header h1 {
-    margin: 10px 0;
-}
-
+/*Estilo de la lista desordenada del navegador*/
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -32,10 +34,12 @@ nav ul {
     margin: 0;
 }
 
+/*Espacio entre apartados del navegador*/
 nav ul li {
     margin: 0 15px;
 }
 
+/*Estilo de los enlaces a apartados del navegador*/
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -44,15 +48,18 @@ nav ul li a {
     display: block;
 }
 
+/*Estilo del enlace a apartados del navegador teniendo el cursos encima*/
 nav ul li a:hover {
     background-color: #94d2bd;
     border-radius: 5px;
 }
 
+/*Bordes en el contenido principal*/
 main {
     padding: 20px;
 }
 
+/*Estilo general de las secciones*/
 section {
     margin-bottom: 30px;
     background: white;
@@ -61,7 +68,8 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-section img.pagInicial {
+/*Estilo general de la pagina principal*/
+.pagInicial {
     height: 300px;
     margin-bottom: 10px;
     border-radius: 15px; /* Esquinas redondeadas */
@@ -69,7 +77,9 @@ section img.pagInicial {
     margin-left: auto; /* Centra horizontalmente */
     margin-right: auto; /* Centra horizontalmente **/
 }
-section img.pagInicialSeparacion {
+
+/*Separacion general de la pagina principal*/
+.pagInicialSeparacion {
     height: 450px;
     margin-bottom: 10px;
     border-radius: 15px; /* Esquinas redondeadas */
@@ -78,12 +88,14 @@ section img.pagInicialSeparacion {
     margin-right: auto; /* Centra horizontalmente */
 }
 
+/*Estilo generas de los titulos tipo 2 en secciones*/
 section h2 {
     color: #005f73;
     border-bottom: 2px solid #94d2bd;
     padding-bottom: 5px;
 }
 
+/*Estilo del pie de pagina para todos los apartados*/
 footer {
     text-align: center;
     background-color: #005f73;
@@ -94,19 +106,20 @@ footer {
     width: 100%;
 }
 
-/* Estilos para secciones específicas */
-#noticias article {
+/* Estilos para secciones específicas (id)*/
+/******************************************/
+
+/*Margen de noticias y articulo educativo, en la pagina principal*/
+#margen article {
     margin-bottom: 20px;
 }
 
+/*Estilo de titulo de las noticias en la pagina principal*/
 #noticias h3 {
     color: #0a9396;
 }
 
-#educacion article {
-    margin-bottom: 20px;
-}
-
+/*Estilo del formulario y subida de archivo*/
 #contacto textarea, #contacto input {
     width: 99%;
     margin-bottom: 15px;
@@ -115,6 +128,7 @@ footer {
     border-radius: 5px;
 }
 
+/*Mezcla de id y class para la alineacion de las imagenes*/
 #galeria .galeria {
     display: flex;
     gap: 15px;
@@ -122,32 +136,33 @@ footer {
     justify-content: center;
 }
 
+/*Alineacion del aside de galeria*/
 #galeria aside {
     width: 30%;
     text-align: center;
     margin: 0;
 }
 
+/*Tamaño de imagenes en galeria*/
 #galeria img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/*Estilo y margen de lista desordenada en medidas medioambientales*/
 #medidas ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
+/*Estilo y margen de LINEA en lista de medidas medioambientales*/
 #medidas ul li {
     margin-bottom: 10px;
 }
 
+/*Estilo de titulo en el apartado de consejos*/
 #consejos h3 {
     margin-top: 20px;
     color: #0a9396;
-}
-
-#ue_agenda p {
-    line-height: 1.6;
 }
