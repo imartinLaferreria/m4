@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- La parte del head, header y footer esta compartida en todas las paginas -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayuntamiento de Ripollet</title>
-    <link rel="stylesheet" href="estils_css.css">
+    <title>Ayuntamiento de Ripollet</title> <!-- En la pestaña de arriba nos saldra este titulo -->
+    <link rel="stylesheet" href="estils_css.css"> <!-- Aqui es donde damos referencia al CSS -->
+    <link rel="icon" type="image/x-icon" href="images/escudo.png"> <!-- Imagen de la pestaña de arriba -->
 </head>
 <body>
     <header>
-        <img src="images/escudo.png" alt="Escudo de Ripollet" class="escudo">
+        <img src="images/escudo.png" alt="Escudo de Ripollet" class="escudo"> <!-- Inserta una imagen, en este caso el escudo del ayuntamiento3 -->
         <h1>Ayuntamiento de Ripollet</h1>
-        <nav>
+        <nav> <!-- Navegador para ir hacia las diferentes paginas de la web -->
             <ul>
-                <li><a href="paginicial.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="galeriaImagenes.html">Galería</a></li>
                 <li><a href="medidasMedioAmbientals.html">Medidas Medioambientales</a></li>
@@ -23,8 +25,8 @@
     </header>
 
     <main>
-        <section id="noticias">
-            <h2>Noticias</h2>
+        <section id="margen"> <!-- Sirve para dividir las diferentes secciones que tenemos en la pagina -->
+            <h2>Noticias</h2> <!-- Explicacion de varias noticias sobre el ayuntamiento de Ripollet -->
             <article>
                 <h3>Evento: Día del Medio Ambiente</h3>
                 <p>El próximo sábado se llevará a cabo una jornada de limpieza comunitaria en el Parque Central. ¡Te esperamos!</p>
@@ -37,7 +39,7 @@
             </article>
         </section>
 
-        <section id="educacion">
+        <section id="margen">
             <h2>Artículos Educativos</h2>
             <article>
                 <h3>¿Por qué es importante el reciclaje?</h3>
@@ -51,7 +53,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Ayuntamiento de Ripollet. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Ayuntamiento de Ripollet. Todos los derechos reservados.</p> <!-- Se utiliza &copy para poner el simbolo del copyright -->
     </footer>
 </body>
 </html>
